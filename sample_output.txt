@@ -1,0 +1,28 @@
+=== SAMPLE OUTPUT ===
+Preprocessing:
+Doc 1 -> firewal intrus detect system perimet network defens
+Doc 2 -> cryptograph protocol util public kei encrypt digit signatur
+Doc 3 -> machin learn approach malwar detect behavior anomali classif
+
+TF-IDF:
+Total Unique Vocabulary Features : 63
+Matrix Dimension (Docs x Terms) : (10, 63)
+
+Query:
+access control and authentication for network security
+Processed: access control authent network secur
+
+Rank 1: Doc 5 - 0.8044
+Rank 2: Doc 10 - 0.3800
+Rank 3: Doc 8 - 0.3098
+
+Evaluation:
+Total Raw Corpus Word Count : 98
+Unique Raw Vocabulary Terms : 69
+Processed Features (TF-IDF) : 63
+Vocabulary Dimension Reduction: 8.70%
+
+Class Search:
+malware detection using deep learning
+Rank 1: Doc 6 - 0.4336
+Rank 2: Doc 3 - 0.4245

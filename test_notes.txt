@@ -1,0 +1,5 @@
+Test cases:
+1. Preprocessing removes stop words and stems words.
+2. TF-IDF matrix contains 10 documents.
+3. Search returns ranked documents.
+4. Cosine scores are between 0 and 1 for this non-negative TF-IDF representation.
